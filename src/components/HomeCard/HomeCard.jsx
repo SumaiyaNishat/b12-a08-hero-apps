@@ -9,7 +9,7 @@ const HomeCard = ({card}) => {
       <div className="w-11/12 mx-auto">
           <div className="card bg-base-100 border-white w-full h-[435px] mb-5 shadow-sm hover:scale-105 transition ease-in-out">
   <figure className="overflow-hidden">
-    <img src={image} alt="" className="w-full object-cover justify-center items-center pt-5" />
+    <img src={image} alt="" className="w-full object-cover justify-center items-center p-10" />
   </figure>
   <div className="card-body">
     <h2 className="card-title pt-1">{title}</h2>

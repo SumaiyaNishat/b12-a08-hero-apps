@@ -62,7 +62,6 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white rounded-lg">
-          {" "}
           <Github /> Contribute
         </button>
       </div>

@@ -1,0 +1,511 @@
+[
+  {
+    "image":"https://i.ibb.co.com/HTwgGPyn/download-3.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs, podcasts, and playlists. Enjoy personalized recommendations and offline listening.",
+    "size": 60,
+    "reviews": 35000000,
+    "ratingAvg": 4.5,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 26500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3mCj7MJm/download-3.jpg",
+    "title": "Instagram: Photos, Reels & Chats",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Share photos and videos, connect with friends, and explore trending content from around the world.",
+    "size": 45,
+    "reviews": 125000000,
+    "ratingAvg": 4.4,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 84000000 }
+    ]
+  },
+  {
+    "image":"https://i.ibb.co.com/0pp8H2vJ/download.png",
+    "title": "TikTok: Short Videos & Trends",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 3,
+    "description": "Discover and create short videos with music, filters, and effects that showcase your creativity.",
+    "size": 80,
+    "reviews": 98000000,
+    "ratingAvg": 4.3,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 21000000 },
+      { "name": "5 star", "count": 57500000 }
+    ]
+  },
+  {
+    "image":"https://i.ibb.co.com/QvWwBz0x/download-1.jpg",
+    "title": "Snapchat: Chat, Share & Story",
+    "companyName": "Snap Inc.",
+    "id": 4,
+    "description": "Send snaps, chat with friends, and explore stories from around the world with fun AR filters.",
+    "size": 70,
+    "reviews": 29000000,
+    "ratingAvg": 4.2,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 14000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KjXm8XJ7/download-1.png",
+    "title": "YouTube: Watch, Stream & Discover",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Watch, upload, and share videos from creators worldwide. Enjoy subscriptions, playlists, and live streams.",
+    "size": 100,
+    "reviews": 180000000,
+    "ratingAvg": 4.6,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 142000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MDyGQYLj/download-2.jpg" ,
+    "title": "Netflix: Series, Films & More",
+    "companyName": "Netflix, Inc.",
+    "id": 6,
+    "description": "Stream thousands of movies, TV shows, and documentaries anytime, anywhere with your subscription.",
+    "size": 80,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 16900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5vLZPs2/download-2.png",
+    "title": "Pinterest: Ideas, Recipes & Style",
+    "companyName": "Pinterest, Inc.",
+    "id": 7,
+    "description": "Find inspiration for your next project — from recipes and home decor to fashion and fitness ideas.",
+    "size": 35,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 10200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RwnbMwY/download-4.png",
+    "title": "Telegram: Fast & Secure Chat",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Fast and secure messaging app with cloud-based chats, large group support, and file sharing up to 2GB.",
+    "size": 45,
+    "reviews": 15000000,
+    "ratingAvg": 4.6,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 9700000 }
+    ]
+  },
+
+
+
+  {
+    "image": "https://i.ibb.co/4YQb3vc/whatsapp-icon.png",
+    "title": "WhatsApp Messenger: Chats & Calls",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 9,
+    "description": "Message, call, and share media instantly with friends and family using end-to-end encryption.",
+    "size": 40,
+    "reviews": 180000000,
+    "ratingAvg": 4.5,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 135000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/SdywXn5/canva-icon.png",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 10,
+    "description": "Create stunning designs, social media posts, and videos with easy-to-use templates and tools.",
+    "size": 60,
+    "reviews": 18000000,
+    "ratingAvg": 4.8,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 13600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Lrxw4Wb/duolingo-icon.png",
+    "title": "Duolingo: Learn Languages Fast",
+    "companyName": "Duolingo",
+    "id": 11,
+    "description": "Learn over 30 languages with fun lessons and gamified challenges designed to improve fluency.",
+    "size": 35,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 8800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/YjY1Btb/twitter-icon.png",
+    "title": "X (Twitter): News & Trends",
+    "companyName": "X Corp.",
+    "id": 12,
+    "description": "Stay updated with breaking news, trending topics, and global conversations in real time.",
+    "size": 50,
+    "reviews": 16000000,
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/b6FcrbV/spotify-icon.png",
+    "title": "Spotify: Music & Podcasts",
+    "companyName": "Spotify AB",
+    "id": 13,
+    "description": "Listen to millions of songs, podcasts, and playlists. Enjoy personalized recommendations and offline mode.",
+    "size": 60,
+    "reviews": 35000000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 26500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/nkv9KSt/zoom-icon.png",
+    "title": "Zoom: Video Meetings & Chat",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 14,
+    "description": "Host and join meetings anywhere. Connect, collaborate, and share with high-quality video calls.",
+    "size": 70,
+    "reviews": 20000000,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 1600000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 12300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/gR1g7rQ/discord-icon.png",
+    "title": "Discord: Talk, Chat & Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 15,
+    "description": "Connect with communities and friends through text, voice, and video — for gaming, study, and more.",
+    "size": 90,
+    "reviews": 16000000,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/0hKTjSh/netflix-icon.png",
+    "title": "Netflix: Series, Films & More",
+    "companyName": "Netflix, Inc.",
+    "id": 16,
+    "description": "Stream thousands of movies, TV shows, and documentaries anytime with your subscription.",
+    "size": 80,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 16900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/5MfYV3y/pinterest-icon.png",
+    "title": "Pinterest: Ideas, Recipes & Style",
+    "companyName": "Pinterest, Inc.",
+    "id": 17,
+    "description": "Discover inspiration for projects, recipes, and design ideas from people around the world.",
+    "size": 35,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 10200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/6PJzYbG/youtube-icon.jpg",
+    "title": "YouTube: Watch, Stream & Discover",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Watch, upload, and share videos from creators worldwide. Enjoy playlists, subscriptions, and live streams.",
+    "size": 100,
+    "reviews": 180000000,
+    "ratingAvg": 4.6,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 142000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/x1NhpZq/facebook-icon.png",
+    "title": "Facebook: Social Media & Sharing",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 19,
+    "description": "Connect with friends, share updates, photos, and videos, and join communities that matter to you.",
+    "size": 70,
+    "reviews": 200000000,
+    "ratingAvg": 4.2,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 145000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/6DBwVYV/telegram-icon.png",
+    "title": "Telegram: Fast & Secure Chat",
+    "companyName": "Telegram FZ-LLC",
+    "id": 20,
+    "description": "Send fast, secure messages and share files up to 2GB with channels, bots, and media cloud storage.",
+    "size": 45,
+    "reviews": 15000000,
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 9700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/8P0nPhc/ubereats-icon.png",
+    "title": "Uber Eats: Food Delivery",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 21,
+    "description": "Order meals from your favorite restaurants and track delivery in real-time with Uber Eats.",
+    "size": 55,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 7400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/BPDW7wZ/tiktok-icon.png",
+    "title": "TikTok: Short Videos & Trends",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 22,
+    "description": "Discover and create short videos with trending music, filters, and creative editing tools.",
+    "size": 80,
+    "reviews": 98000000,
+    "ratingAvg": 4.3,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 21000000 },
+      { "name": "5 star", "count": 57500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/C0ZmPRM/snapchat-icon.png",
+    "title": "Snapchat: Chat & Story Camera",
+    "companyName": "Snap Inc.",
+    "id": 23,
+    "description": "Send snaps, chat, and share stories using filters and lenses with your friends worldwide.",
+    "size": 70,
+    "reviews": 29000000,
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 14000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/7y9tBHT/reddit-icon.png",
+    "title": "Reddit: Communities & Memes",
+    "companyName": "Reddit Inc.",
+    "id": 24,
+    "description": "Dive into thousands of communities, share ideas, and explore trending memes and discussions.",
+    "size": 60,
+    "reviews": 14000000,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 9100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/kMZ9qVj/amazon-icon.png",
+    "title": "Amazon Shopping: Deals & Orders",
+    "companyName": "Amazon Mobile LLC",
+    "id": 25,
+    "description": "Shop millions of products, track orders, and enjoy fast delivery with secure payments.",
+    "size": 75,
+    "reviews": 60000000,
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 38000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/LvkM0rb/spotifykids-icon.png",
+    "title": "Spotify Kids: Music for Children",
+    "companyName": "Spotify AB",
+    "id": 26,
+    "description": "Fun and safe music experience designed for kids — with sing-alongs, playlists, and audio stories.",
+    "size": 40,
+    "reviews": 800000,
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 530000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/28m7LzM/airbnb-icon.png",
+    "title": "Airbnb: Travel & Vacation Homes",
+    "companyName": "Airbnb, Inc.",
+    "id": 27,
+    "description": "Book unique homes, hotels, and experiences around the world for your next adventure.",
+    "size": 65,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 10600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/bWsR3nD/amazon-icon.png",
+    "title": "Amazon Shopping: Deals & Orders",
+    "companyName": "Amazon Mobile LLC",
+    "id": 28,
+    "description": "Shop millions of products, track your orders, and enjoy fast delivery with secure payments.",
+    "size": 75,
+    "reviews": 60000000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 380}
+    ]
+  }
+   
+
+]

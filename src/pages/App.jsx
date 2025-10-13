@@ -1,10 +1,13 @@
 import React from "react";
+import useCards from "../hooks/useCards";
+import HomeCard from "../components/HomeCard/HomeCard";
 
 const App = () =>{
+    const {cards} = useCards()
     return(
-        <div>
-            <h1>app</h1>
-        </div>
+      <div>
+        
+      </div>
     )
 }
 

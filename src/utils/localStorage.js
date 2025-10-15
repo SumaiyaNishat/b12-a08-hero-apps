@@ -13,7 +13,6 @@ export const updateData = card => {
 
     try {
         const isSameData = installation.some(c => c.id === card.id)
-        if (isSameData) return alert('Already added in  installation')
         const updatedInstallation = [...installation, card]
     localStorage.setItem('installation', JSON.stringify(updatedInstallation))
     }catch (err) {

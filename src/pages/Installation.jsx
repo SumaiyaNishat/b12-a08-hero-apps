@@ -51,7 +51,7 @@ const Installation = () => {
                 <div className="flex gap-4">
                     <div className="flex gap-2 items-center">
                         <img src={icon1} alt="" className="w-4 h-4" />
-                        <p className="text-lg">{c.downloads}</p>
+                        <p className="text-lg">{c.downloads}M</p>
                         </div>
                     <div className="flex gap-2 items-center">
                         <img src={icon2} alt="" className="w-4 h-4" />

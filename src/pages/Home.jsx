@@ -15,7 +15,7 @@ const Home = () => {
   const homecards = cards.slice(0, 8);
   console.log(cards);
   return (
-    <div className="p-6 bg-gray-200">
+    <div className="p-15 bg-gray-200">
       <div className="text-center">
         <h1 className="text-5xl font-bold py-2">
           We Build
@@ -29,12 +29,19 @@ const Home = () => {
           make an impact.
         </p>
         <div className="flex justify-center items-center pt-8 gap-2">
-          <button className="btn bg-[#D2D2D2] text-white text-xl rounded-lg hover:bg-gray-300">
-            <img src={img4} alt="" /> Google Play
-          </button>
-          <button className="btn bg-[#D2D2D2] text-white text-xl rounded-lg hover:bg-gray-300">
-            <img src={img5} alt="" /> App Store
-          </button>
+          <a
+            href="https://play.google.com/store/apps"
+            target="_blank"
+            rel=""
+            className="btn bg-[#D2D2D2] text-white text-xl rounded-lg hover:bg-gray-300"
+          >
+            <img src={img4} alt="" />
+            Google Play
+          </a>
+
+          <a href="https://www.apple.com/app-store/" target="_blank" rel="" className="btn bg-[#D2D2D2] text-white text-xl rounded-lg hover:bg-gray-300">
+          <img src={img5} alt="" />App Store
+          </a>
         </div>
         <div className="w-6/12 mx-auto pt-8">
           <img src={hero} alt="" />
@@ -81,7 +88,7 @@ const Home = () => {
 
       <div className="text-center pt-12">
         <h1 className="text-4xl font-bold p-1">Trending Apps</h1>
-        <p>Explore All Trending Apps on the Market developed by us</p>
+        <p className="text-[#627382] py-2">Explore All Trending Apps on the Market developed by us</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 p-6">

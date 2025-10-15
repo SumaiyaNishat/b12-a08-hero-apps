@@ -61,9 +61,15 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white rounded-lg">
-          <Github /> Contribute
-        </button>
+        <a
+          href="https://github.com/SumaiyaNishat"
+          target="_blank"
+          rel=""
+          className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white rounded-lg flex items-center gap-2"
+        >
+          <Github className="w-5 h-5" />
+          Contribute
+        </a>
       </div>
     </div>
   );

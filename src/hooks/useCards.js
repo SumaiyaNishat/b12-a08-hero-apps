@@ -9,7 +9,7 @@ const useCards = () => {
 
     useEffect(() => {
         setLoading(true)
-        axios('./allCardData.json').then(data => setCards(data.data))
+        axios('../allCardData.json').then(data => setCards(data.data))
         .catch(err => setError(err))
         .finally(() => setLoading(false))
     }, [])

@@ -5,6 +5,7 @@ import App from "../pages/App";
 import Installation from "../pages/Installation";
 import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home";
+import AppDetails from "../pages/AppDetails";
 
 
 
@@ -17,7 +18,6 @@ export const router = createBrowserRouter([
         {
     index: true,
     element: <Home/>,
-    loader: () => fetch('./allCardData.json')
   },
    {
     path: "/app",
@@ -27,9 +27,13 @@ export const router = createBrowserRouter([
     path: "/installation",
     element: <Installation/>,
   },
+  {
+    path: '/app/:id',
+    element: <AppDetails/>,
+  }
+
     ]
   },
   
 
-  
 ]);

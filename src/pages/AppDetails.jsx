@@ -63,7 +63,7 @@ const AppDetails = () => {
   return (
     <div className="bg-[#D2D2D2]">
       <div className="w-11/12 mx-auto">
-        <div className="flex gap-10 pt-15 border-b border-gray-500 pb-5 ">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-10 pt-6 border-b border-gray-500 pb-5 ">
           <div className="card bg-base-100 border-white w-86 shadow-sm">
             <figure className="overflow-hidden">
               <Link to={`/app/${id}`}>
@@ -80,7 +80,7 @@ const AppDetails = () => {
             <p className="border-b border-gray-400 pb-5 text-[#627382]">
               Developed by <span className="text-[#632EE3]">{companyName}</span>
             </p>
-            <div className="flex gap-10 py-5">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-10 py-5">
               <div className="">
                 <img src={icon1} alt="" />
                 <p>Downloads</p>
@@ -104,7 +104,7 @@ const AppDetails = () => {
                 toast.success(`Yahoo!! ${title} Installed Successfully!`);
               }}
               disabled={installed}
-              className={`text-lg py-3 rounded-lg w-60 ${
+              className={`text-lg py-3 rounded-lg w-full md:w-60 ${
                 installed
                   ? "bg-[#00D390] text-white cursor-pointer "
                   : "bg-[#00D390] text-white hover:bg-green-300"

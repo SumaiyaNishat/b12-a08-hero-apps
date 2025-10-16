@@ -55,7 +55,7 @@ if (loading) return <LoadingSpinner />
         <h1 className="text-3xl text-white font-bold py-8 text-center">
           Trusted by Millions, Built for You
         </h1>
-        <div className="flex justify-between w-6/12 mx-auto text-white text-center pb-12">
+        <div className="flex flex-col md:flex-row justify-around items-center text-white text-center gap-6 md:gap-0 w-11/12 mx-auto pb-12">
           <div className="flex justify-center items-center gap-2">
             <div>
               <p>Total Downloads</p>

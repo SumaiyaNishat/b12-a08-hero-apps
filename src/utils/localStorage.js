@@ -21,6 +21,11 @@ export const updateData = card => {
     }
 }
 
+export const isInstalled = (id) => {
+  const installation = loadInstallation();
+  return installation.some((c) => c.id === id);
+};
+
 export const uninstallApp = id => {
     const installation = loadInstallation()
     try {

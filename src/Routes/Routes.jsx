@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, useNavigation } from "react-router";
 import MainLayouts from "../Layouts/MainLayouts";
 import App from "../pages/App";
 import Installation from "../pages/Installation";
@@ -7,33 +7,48 @@ import ErrorPage from "../pages/ErrorPage";
 import Home from "../pages/Home";
 import AppDetails from "../pages/AppDetails";
 
+const LoadingWrapper = ({ children }) => {
+  const navigation = useNavigation();
+  const isLoading = navigation.state === "loading";
 
+  return (
+    <>
+      {isLoading && (
+        <div className="fixed inset-0 flex justify-center items-center bg-gray-100 bg-opacity-70 z-50">
+          <LoadingSpinner />
+        </div>
+      )}
+      {children}
+    </>
+  );
+};
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayouts/>,
-    errorElement: <ErrorPage/>,
+    element: <MainLayouts />,
+    errorElement: <ErrorPage />,
     children: [
-        {
-    index: true,
-    element: <Home/>,
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/app",
+        element: <App />,
+      },
+      {
+        path: "/installation",
+        element: <Installation />,
+      },
+      {
+        path: "/app/:id",
+        element: <AppDetails />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />,
+      },
+    ],
   },
-   {
-    path: "/app",
-    element: <App/>,
-  },    
-   {
-    path: "/installation",
-    element: <Installation/>,
-  },
-  {
-    path: '/app/:id',
-    element: <AppDetails/>,
-  }
-
-    ]
-  },
-  
-
 ]);

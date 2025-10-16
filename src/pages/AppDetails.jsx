@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router";
 import useCards from "../hooks/useCards";
 import icon1 from "../assets/icon-downloads.png";
 import icon2 from "../assets/icon-ratings.png";
 import icon3 from "../assets/icon-review.png";
-import { updateData } from "../utils/localStorage";
+import { isInstalled, updateData } from "../utils/localStorage";
 import { toast } from "react-toastify";
 import {
   Bar,
@@ -16,13 +16,38 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { CircleAlert } from "lucide-react";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { cards, loading } = useCards();
   const [installed, setInstalled] = useState(false);
   const card = cards.find((card) => String(card.id) === id);
+  useEffect(() => {
+    if (card) setInstalled(isInstalled(card.id));
+  }, [card]);
   if (loading) return <p>Loading</p>;
+
+  if (!card) {
+    return (
+      <div className="bg-[#D2D2D2] min-h-[80vh] flex flex-col justify-center items-center text-center">
+        <CircleAlert className="w-20 h-20 pb-5"></CircleAlert>
+        <h1 className="text-5xl font-bold text-gray-700 mb-4">
+          App Not Found{" "}
+        </h1>
+        <p className="text-lg text-gray-600 mb-6">
+          The app you’re looking for doesn’t exist or has been removed.
+        </p>
+        <Link
+          to="/"
+          className="bg-[#632EE3] text-white px-6 py-3 rounded-lg hover:bg-[#4f22b5] transition"
+        >
+          Back to Home
+        </Link>
+      </div>
+    );
+  }
+
   const {
     image,
     title,
@@ -32,6 +57,7 @@ const AppDetails = () => {
     reviews,
     size,
     ratings,
+    description,
   } = card || {};
 
   return (
@@ -50,13 +76,8 @@ const AppDetails = () => {
             </figure>
           </div>
           <div className="w-full">
-            <h1
-              className="text-2xl font-semibold
-        py-1"
-            >
-              {title}
-            </h1>
-            <p className="border-b border-gray-500 pb-5 text-[#627382]">
+            <h1 className="text-2xl font-semibold py-1">{title}</h1>
+            <p className="border-b border-gray-400 pb-5 text-[#627382]">
               Developed by <span className="text-[#632EE3]">{companyName}</span>
             </p>
             <div className="flex gap-10 py-5">
@@ -77,15 +98,16 @@ const AppDetails = () => {
               </div>
             </div>
             <button
-              onClick={() => {updateData(card); 
-                setInstalled(true); 
-                toast.success(`Yahoo!! ${title} Installed Successfully!`); 
+              onClick={() => {
+                updateData(card);
+                setInstalled(true);
+                toast.success(`Yahoo!! ${title} Installed Successfully!`);
               }}
               disabled={installed}
-              className={`text-lg w-40 hover:cursor-pointer ${
+              className={`text-lg py-3 rounded-lg w-60 ${
                 installed
-                  ? "bg-[#00D390] text-white "
-                  : "bg-[#00D390] text-white hover:cursor-pointer hover:bg-green-300 w-60"
+                  ? "bg-[#00D390] text-white cursor-pointer "
+                  : "bg-[#00D390] text-white hover:bg-green-300"
               }`}
             >
               {installed ? "Installed" : `Install Now (${size}MB)`}
@@ -93,8 +115,8 @@ const AppDetails = () => {
           </div>
         </div>
 
-        <div className="">
-          <h3 className="text-2xl font-bold mb-2">Ratings</h3>
+        <div className="border-b border-gray-400 pb-5">
+          <h3 className="text-2xl font-bold mb-2 pt-10 pb-1">Ratings</h3>
           <div className="bg-base-100 border rounded-lg p-4 h-90">
             <ResponsiveContainer>
               <BarChart
@@ -117,6 +139,8 @@ const AppDetails = () => {
             </ResponsiveContainer>
           </div>
         </div>
+        <h3 className="text-2xl font-bold mb-2 pt-10 pb-1">Description</h3>
+        <p className="pb-10 text-[#627382]">{description}</p>
       </div>
     </div>
   );

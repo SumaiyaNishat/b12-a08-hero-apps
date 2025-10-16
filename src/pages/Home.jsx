@@ -8,12 +8,16 @@ import img8 from "../assets/icon-review.png";
 import { Link, useLoaderData } from "react-router";
 import HomeCard from "../components/HomeCard/HomeCard";
 import useCards from "../hooks/useCards";
+import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner";
 
 const Home = () => {
   const { cards, loading, error } = useCards();
   // console.log(data)
   const homecards = cards.slice(0, 8);
   console.log(cards);
+
+if (loading) return <LoadingSpinner />
+
   return (
     <div className="p-15 bg-gray-200">
       <div className="text-center">

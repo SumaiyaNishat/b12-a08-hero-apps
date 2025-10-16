@@ -7,7 +7,7 @@ import img3 from "../../assets/img3.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#001931] h-[183px]">
+    <div className="bg-[#001931] py-8">
       <div className=" flex  justify-between items-center w-11/12 mx-auto">
         <div className="flex gap-2">
           <img src={imgLogo} alt="" className="w-8 h-8" />
